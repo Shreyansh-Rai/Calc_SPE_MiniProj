@@ -1,2 +1,1 @@
 localhost ansible_user = shreyanshrai
-ansible_ssh_executable=/usr/local/bin/sshpass
