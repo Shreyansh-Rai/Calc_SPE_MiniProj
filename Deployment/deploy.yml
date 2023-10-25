@@ -9,6 +9,7 @@
         name: neogenkai/calculator:latest
         source: pull
     - name: Start docker service
+      community.general.launchd:
       service:
         name: docker
         state: started
