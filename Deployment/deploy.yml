@@ -13,4 +13,4 @@
 #        name: docker
 #        state: started
     - name: Running container
-      shell: docker run -it -d --name Calculator neogenkai/calculator
+      command: docker run -it -d --name Calculator neogenkai/calculator
