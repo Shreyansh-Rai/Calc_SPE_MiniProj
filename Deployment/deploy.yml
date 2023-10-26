@@ -9,8 +9,8 @@
         name: neogenkai/calculator:latest
         source: pull
 #    - name: Start docker service
-#      community.general.launchd:
+#      service:
 #        name: docker
 #        state: started
     - name: Running container
-      command: docker run -it -d --name Calculator neogenkai/calculator
+      shell: docker run -it -d --name Calculator neogenkai/calculator
