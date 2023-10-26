@@ -1,4 +1,4 @@
-# CalcLinux-SPE-MINIPROJ
+# Calc-SPE-MiniProj
 
 ## Jenkins setup 
 Refer to jenkins file and supplementary material in repo.
