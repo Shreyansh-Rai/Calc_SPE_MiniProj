@@ -160,8 +160,8 @@ class MyCalculator extends JFrame{
                     String result2 = Integer.valueOf(jTextField.getText(),2).toString();
                     jTextField.setText(""+getPrettyNumber(result2));
                 }catch(NumberFormatException exception) {
-                    JOptionPane.showMessageDialog(null, "�Բ������ִ������������룡", "Error!", JOptionPane.ERROR_MESSAGE);
-                    throw new NumberFormatException("���ָ�ʽ����");
+                    JOptionPane.showMessageDialog(null, "", "Error!", JOptionPane.ERROR_MESSAGE);
+                    throw new NumberFormatException("");
                 }finally {
                     start = true;
                 }
