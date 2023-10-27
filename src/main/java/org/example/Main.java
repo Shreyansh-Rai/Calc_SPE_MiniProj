@@ -298,7 +298,7 @@ class MyCalculator extends JFrame{
         }
         return sum;
     }
-//TEST FOR GITSCM POLLING
+//TEST FOR GIT SCM POLLING
 //    public static void main(String[] args) {
 //        MyCalculator myCalculator = new MyCalculator();
 //
