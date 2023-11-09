@@ -40,7 +40,7 @@ class MyCalculator extends JFrame{
         jTextField.setText("");
         jTextField.setEditable(true);
         this.add(jTextField,"North");
-
+//test
         jPanel.setLayout(new GridLayout(5,7,3,3));
         String name[] = {
                 "+/-","PI","1/X","C","/","*","Back","X^2","X^3",
