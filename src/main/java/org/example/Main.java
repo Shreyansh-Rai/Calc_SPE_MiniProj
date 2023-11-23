@@ -48,6 +48,8 @@ class MyCalculator extends JFrame{
                 "6","+","sin","cos","tan","1","2","3","%",
                 "Base2","Base10","cot","time","0",".","="
         };
+        //new test ngrok
+        //new test ngrok
         jButtons = new JButton[name.length];
         MyActionListener actionListener= new MyActionListener();
 
